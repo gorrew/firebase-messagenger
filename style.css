@@ -1,0 +1,48 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+.chat-ul li {
+    background: #fff;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-height: 4em;
+    overflow-x: scroll;
+    text-align: left;
+    word-break: break-all;
+}
+.chat-ul {
+    padding: 0;
+    margin: 0;
+    padding: 2em 2em 0;
+    list-style-type: none;
+}
+.chat-box{
+    background: #eee;
+    width: 40%;
+    max-height: 60vh;
+    margin: 5em auto auto;
+    padding: 2em;
+    overflow-y: scroll;
+}
+.send-chat-box{
+    margin: 0;
+    padding: 0 2em;
+}
+.input-chat{
+/*    margin: 2em;*/
+
+    min-height: 30px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.send-chat{
+/*
+    min-height: 3em;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 10%;
+*/
+}
