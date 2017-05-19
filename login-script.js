@@ -17,6 +17,8 @@ let regUserPassword = document.getElementById('reg-password');
 function storeUsers() {
     localStorage.setItem('regUserName', regUserName.value);
     localStorage.setItem('regUserPassword', regUserPassword.value);
+    regUserName.value = '';
+    regUserPassword.value= '';
 }
 function checkUser() {
     let storedName = localStorage.getItem('regUserName');
